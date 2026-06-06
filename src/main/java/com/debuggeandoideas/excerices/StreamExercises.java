@@ -94,11 +94,12 @@ public class StreamExercises {
     /**
      * EJERCICIO 4.2 — INTERMEDIO
      * <p>     * Dado el listado de artistas ordenados por nombre alfabéticamente,
-     * salta los primeros 5 y retorna los siguientes 10.
-     * <p>     * Simula una paginación: página 2, tamaño de página 10.
+     * salta los primeros 5 y retorna los siguientes 5.
+     * <p>     * Simula una paginación: página 2, tamaño de página 5.
      * <p>     * Operadores: sorted + skip + limit + toList
      * <p>     * @return List<Artist> página 2 de artistas ordenados por nombre
      */
+
     public List<Artist> getArtistsPage2() {
         throw new UnsupportedOperationException("Implementar ejercicio 4.2");
     }
@@ -261,6 +262,31 @@ public class StreamExercises {
      */
     public List<Artist> getArtistsWithMoreThanOneAlbum() {
         throw new UnsupportedOperationException("Implementar ejercicio 9.2");
+    }
+
+    /**
+     * EJERCICIO 10.1 — SENCILLO
+     * Encuentra el PRIMER artista cuyo nombre contenga la palabra "The".
+     * Operadores: filter + findFirst
+     * Ejemplo de salida esperada:
+     *   Optional[Artist{name="The Beatles"}]
+     *
+     * @return Optional<Artist> con el primer artista que contenga "The"
+     */
+    public Optional<Artist> findFirstArtistWithThe() {
+        throw new UnsupportedOperationException("Implementar ejercicio 10.1");
+    }
+
+    /**
+     * EJERCICIO 10.2 — SENCILLO
+     * Encuentra CUALQUIER artista del género "Jazz".
+     * En streams paralelos puede retornar cualquiera — no necesariamente el primero.
+     * Operadores: filter + findAny
+     *
+     * @return Optional<Artist> con cualquier artista de Jazz
+     */
+    public Optional<Artist> findAnyJazzArtist() {
+        throw new UnsupportedOperationException("Implementar ejercicio 10.2");
     }
 
 }
