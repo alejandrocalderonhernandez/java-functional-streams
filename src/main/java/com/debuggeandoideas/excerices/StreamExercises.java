@@ -73,6 +73,8 @@ public class StreamExercises {
                 .toList();
     }
 
+
+
     /**
      * EJERCICIO 3.2 — INTERMEDIO
      * <p>     * Dado el listado de artistas, retorna una lista con TODAS
